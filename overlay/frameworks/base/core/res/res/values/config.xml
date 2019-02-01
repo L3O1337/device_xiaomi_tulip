@@ -344,8 +344,6 @@
         <item>"/system/framework/boot.vdex"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/boot-core-libart.vdex"</item>
-<<<<<<< HEAD
-=======
         <item>/system/lib64/libRScpp.so</item>
         <item>/system/lib64/libRS.so</item>
         <item>/system/lib64/libRS_internal.so</item>
@@ -358,7 +356,6 @@
         <item>"/system/lib64/libsurfaceflinger.so"</item>
         <item>"/system/framework/arm64/boot-QPerformance.oat"</item>
         <item>"/system/framework/arm64/boot-UxPerformance.oat"</item>
->>>>>>> 86df9c7... overlay: pin QPerformance and UxPerformance oats
     </string-array>
 
     <!-- Minimum screen brightness allowed by the power manager. -->
