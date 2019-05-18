@@ -18,7 +18,6 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
-$(call inherit-product-if-exists, vendor/xiaomi/Dirac/dirac.mk)
 
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
@@ -44,10 +43,10 @@ REVENGEOS_BUILDTYPE := OFFICIAL
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="tulip" \
     PRODUCT_NAME="tulip" \
-    PRIVATE_BUILD_DESC="tulip-user 8.1.0 OPM1.171019.011 V10.2.2.0.OEKMIXM release-keys"
+    PRIVATE_BUILD_DESC="tulip-user 9 PKQ1.180904.001 V10.3.2.0.PEKMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := xiaomi/tulip/tulip:8.1.0/OPM1.171019.011/V10.2.2.0.OEKMIXM:user/release-keys
+BUILD_FINGERPRINT := xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user/release-keys
 
 TARGET_VENDOR := Xiaomi
 
