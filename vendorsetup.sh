@@ -1,1 +1,1 @@
-add_lunch_combo lean_tulip-userdebug
+add_lunch_combo havoc_tulip-userdebug
