@@ -48,3 +48,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user/release-keys
 
 TARGET_VENDOR := Xiaomi
+
+
+# Official
+export export 
+HAVOC_BUILD_TYPE=Official
