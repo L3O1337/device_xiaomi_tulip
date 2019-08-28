@@ -23,13 +23,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
 # Inherit some common Mokee stuff.
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
-PRODUCT_NAME := havoc_tulip
+PRODUCT_NAME := aosip_tulip
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := tulip
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 6 Pro
+
+# Maintainer Prop
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Anirudh Gupta"
+
 
 # Inherit some common Lean stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -49,6 +54,7 @@ BUILD_FINGERPRINT := xiaomi/tulip/tulip:9/PKQ1.180904.001/V10.3.2.0.PEKMIXM:user
 TARGET_VENDOR := Xiaomi
 
 
-# Official
-export export 
-HAVOC_BUILD_TYPE=Official
+# Maintainer Prop
+PRODUCT_BUILD_PROP_OVERRIDES += \
+DEVICE_MAINTAINERS="Sagar Gaur"
+
