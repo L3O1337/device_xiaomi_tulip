@@ -96,6 +96,9 @@ function blob_fixup() {
     vendor/lib/libminikin.so)
         patchelf --set-soname "libminiq.so" "${2}"
        ;;
+   vendor/lib/hw/camera.sdm660.so)
+       patchelf --add-needed libcamera_sdm660_shim.so "${2}"
+       ;;
     esac
 }
 
